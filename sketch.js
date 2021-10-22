@@ -1,4 +1,4 @@
-var cWidth = 1000;
+var cWidth = 900;
 var cHeight = 800;
 let o, m, v1, v2, v3, v4;
 
