@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(260);
   noFill();
   translate(o.x, o.y);
   scale(2.0, -2.0);
