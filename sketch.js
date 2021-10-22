@@ -13,13 +13,15 @@ function setup() {
 }
 
 function draw() {
-  background(260);
+  background(200);
   noFill();
-  translate(o.x, o.y);
-  scale(2.0, -2.0);
+
+  translate(o.x, o.y); // Transform pipeline ocurrs in the reverse order
+  scale(2.0, 2.0); // They appear in the code.
 
   m = createVector(mouseX, mouseY);
   v2 = m.sub(o); //translate mouse posn into screen centered coordinates
+  v2 = v2.mult(0.5); //translate mouse posn into screen centered coordinates
 
   beginShape();
   strokeWeight(2);
