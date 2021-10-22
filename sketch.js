@@ -16,7 +16,7 @@ function draw() {
   background(200);
   noFill();
   translate(o.x, o.y);
-  //scale(3.0, -3.0);
+  scale(2.0, -2.0);
 
   m = createVector(mouseX, mouseY);
   v2 = m.sub(o); //translate mouse posn into screen centered coordinates
